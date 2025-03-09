@@ -252,7 +252,7 @@
         let inputPassword = document.getElementById("adminPassword").value;
         let hashedInput = await sha256(inputPassword);
         const HASHED_PASSWORD =
-          "841f587994c53ef3b916e073cbaed99a5e5032959f62be2e4d96baf7334c2007";
+          "ad534bec2a6a9de2003b8ba1c38cf59e830e84fa997cb2d85f1ccb0a7d62a399";
 
         if (hashedInput === HASHED_PASSWORD) {
           let loginModal = bootstrap.Modal.getInstance(
